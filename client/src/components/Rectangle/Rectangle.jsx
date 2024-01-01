@@ -16,7 +16,7 @@ export const Rectangle = ({ stateProp, className ,taskk}) => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch('https://venkateshb.onrender.com/api/getData');
+      const response = await fetch('https://todotest-lac.vercel.app/api/getData');
       if (!response.ok) {     
         throw new Error(`HTTP error! Status: ${response.status}`);
       }
